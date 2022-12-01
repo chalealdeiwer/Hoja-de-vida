@@ -25,7 +25,7 @@ body{
 }
 .name .content .p-2{
     color: #374B4A;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 35px;
     transform: skewY(5deg);
     margin-top: 0;
@@ -88,4 +88,117 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 5px;
 
+}
+
+.ts{
+    display: flex;
+    padding: 0px 1.2em;
+}
+.ts1{
+    width: 33.333%;    
+    
+}
+.ts3{
+    width: 33.333%;    
+    padding-left: 1em;
+}
+.ts1 i{
+    font-size: 0.8em;
+    padding-right: 1em;
+}
+.ts3 i{
+    font-size: 0.8em;
+}
+.ts1 h4{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 1em;
+}
+.ts3 h4{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 1em;
+}
+.ts1 p{
+    margin-top: 0px;
+    font-size: 0.8em;
+}
+#contestrellas{
+    padding: 0;
+    margin: 3px 0 0 0;
+    display: flex;
+    align-items: center;
+    height: 12px;
+    
+}
+#contestrellas img{
+    
+    height: 1em;
+    padding-top: 0;
+}
+#var{
+    height:12px;
+    margin: 5px 0 0 0;
+    background-color: #c0c7cd
+}
+
+
+#scorefn{
+    height: 11px;
+    background-color: #0171ad;
+    width: 70%;
+}
+#scorebn{
+    height: 11px;
+    background-color: #0171ad;
+    width: 90%;
+}
+#scoreaf{
+    height: 11px;
+    background-color: #fddd36;
+    width: 80%;
+}
+#scorecn{
+    height: 11px;
+    background-color: #fddd36;
+    width: 73%;
+}
+.eduport{
+    display: flex;
+}
+.edu1port{
+    width: 66.6%;
+    padding-right: 1em;
+    padding-left: 1.2em;
+}
+.edu2port{
+    width: 33.3%;
+    margin-right: 1.2em;
+}
+.edu2port h4{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+.edu2port p{
+    margin-top: 0px;
+    font-size: 1.1em;
+}
+.edu2port i{
+    font-size: 1.1em;
+}
+.edu1port p{
+    margin-top: 10px;
+    font-size: large;
+}
+
+.edu2port td{
+    font-size: 1.1em;
+    width: 25%;
+}
+
+#lenguajes{
+    width: 55vw;
+    border-radius:20px;
+    margin-left:  250px;
 }
